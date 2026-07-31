@@ -1,0 +1,106 @@
+body {
+    background-color: beige;
+}
+
+a {
+    color: black;
+}
+
+#title {
+    color: rgba(150, 20, 14, 0.5);
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', monospace;
+}
+
+#about {
+    color: rgb(150, 20, 14);
+    background-color: rgb(240, 230, 255);
+    height: 40vh;
+}
+
+.skills {
+    color: rgba(150, 20, 14, 0.8);
+    background-color: rgba(0, 57, 220, 0.4);
+    height: 35vh;
+}
+
+#projects {
+    color: rgb(150, 20, 14);
+    background-color: rgb(240, 230, 255);
+    height: 95vh;
+}
+
+#education {
+    color: rgba(150, 20, 14, 0.8);
+    background-color: rgba(0, 57, 220, 0.4);
+    height: 40vh;
+}
+
+#contact {
+    color: #274f32;
+    background-color: #adc4be;
+    height: 35vh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+.profile {
+    height: 200px;
+}
+
+nav>a {
+    text-decoration: none;
+    white-space: pre;
+    margin-right: 250px;
+    font-size: 18px;
+    background-color: bisque;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+a[href*=contact] {
+    margin-right: 10px;
+}
+
+a[href^="#about"] {
+    margin-left: 50px;
+}
+
+div {
+    font-size: 18px;
+    text-align: justify;
+    text-decoration: none;
+    padding: 20px 18px;
+    margin: 20px 10px;
+}
+
+div p {
+    font-family: 'Monaco', monospace;
+    line-height: 1.5;
+}
+
+div li {
+    font-family: 'Monaco', monospace;
+    line-height: 1.5;
+}
+
+strong {
+    font-size: 20px;
+    font-family: 'Monaco', monospace;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-right: 520px;
+    background-color: azure;
+}
+
+.contact a[href*=github] {
+    margin-right: 12px;
+}
