@@ -16,31 +16,50 @@ a {
 #about {
     color: rgb(150, 20, 14);
     background-color: rgb(240, 230, 255);
-    height: 40vh;
+    height: 470px;
+    width: 600px;
+    position: relative;
+    left: 50px;
 }
 
 .skills {
     color: rgba(150, 20, 14, 0.8);
     background-color: rgba(0, 57, 220, 0.4);
-    height: 35vh;
+    height: 470px;
+    width: 700px;
+    position: relative;
+    left: 700px;
+    bottom: 530px;
 }
 
 #projects {
     color: rgb(150, 20, 14);
     background-color: rgb(240, 230, 255);
-    height: 95vh;
+    height: 800px;
+    width: 1350px;
+    position: relative;
+    bottom: 500px;
+    left: 50px;
 }
 
 #education {
     color: rgba(150, 20, 14, 0.8);
     background-color: rgba(0, 57, 220, 0.4);
     height: 40vh;
+    width: 1350px;
+    position: relative;
+    bottom: 500px;
+    left: 50px;
 }
 
 #contact {
     color: #274f32;
     background-color: #adc4be;
     height: 35vh;
+    width: 1350px;
+    position: relative;
+    bottom: 500px;
+    left: 50px;
 }
 
 h2 {
@@ -52,6 +71,9 @@ h2 {
 
 .profile {
     height: 200px;
+    position: relative;
+    left: 41%;
+    border-radius: 12px;
 }
 
 nav>a {
@@ -78,6 +100,7 @@ div {
     text-decoration: none;
     padding: 20px 18px;
     margin: 20px 10px;
+    border-radius: 12px;
 }
 
 div p {
@@ -97,7 +120,7 @@ strong {
 
 .contact a {
     text-decoration: none;
-    margin-right: 520px;
+    margin-right: 450px;
     background-color: azure;
 }
 
