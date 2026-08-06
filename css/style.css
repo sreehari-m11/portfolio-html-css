@@ -64,7 +64,7 @@ a {
 #education {
     color: rgba(150, 20, 14, 0.8);
     background-color: rgba(0, 59, 220, 0.1);
-    height: 40vh;
+    height: 50vh;
     width: 95vw;
     display: flex;
     flex-direction: column;
@@ -168,4 +168,22 @@ strong {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 18px;
+}
+
+.nav-item:hover {
+    background-color: rgba(165, 42, 42, 0.331);
+    width: 120px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.education {
+    display: grid;
+    grid-template-columns: 500px 500px 150px;
+    grid-template-rows: 100px 100px;
+    column-gap: 80px;
+    row-gap: 50px;
+    justify-content: end;
+    align-items: center;
+    justify-items: start;
 }
